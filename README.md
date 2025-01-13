@@ -9,7 +9,6 @@ This template does it.
 This template is for the conferences.
 In case you need other configurations, please adapt `paper-conference.tex` or run the [latex template generator].
 
-
 To build the whole document, execute following command.
 Note that this requires a working perl installation.
 
@@ -44,7 +43,6 @@ You can run the [latex template generator] to enable the features.
 Hints on writing an abstract and thesis by Dirk Fahland.
 
 ## Tool hints
-
 
 MiKTeX installation hints are given at <http://latextemplates.github.io/scientific-thesis-template/#installation-hints-for-windows>.
 

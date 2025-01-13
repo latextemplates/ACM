@@ -38,6 +38,7 @@ jobs:
           yo $GITHUB_WORKSPACE/generator-latex-template/generators/app/index.js \
            --githubpublish\
            --documentclass=acmart\
+           --acmformat=sigconf\
            --papersize=a4\
            --latexcompiler=both\
            --bibtextool=bibtex\

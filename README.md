@@ -1,4 +1,15 @@
-# LaTeX Document
+# ACM
+
+> Quick start for modern LaTeXing for an ACM conference.
+
+
+The official template is distributed via CTAN as the [acmart package](https://ctan.org/pkg/acmart), which is actively maintained.
+However, de-facto configurations (hyperref) and modern features of latex (microtype) are not configured.
+This template does it.
+
+This template is for the conferences.
+In case you need other configurations, please adapt `paper-conference.tex` or run the [latex template generator].
+
 
 To build the whole document, execute following command.
 Note that this requires a working perl installation.

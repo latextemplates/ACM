@@ -83,6 +83,7 @@ jobs:
           cd ${{ github.workspace }}
           git status
           git diff
+          git add _latexmkrc
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:

@@ -39,6 +39,7 @@ jobs:
            --githubpublish\
            --documentclass=acmart\
            --acmformat=sigconf\
+           --acmreview=false\
            --papersize=a4\
            --latexcompiler=both\
            --bibtextool=bibtex\

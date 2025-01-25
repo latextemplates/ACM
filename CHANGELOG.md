@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 Versioning is done using [Calendar Versioning](https://calver.org/).
 
+## [Unreleased]
+
+### Changed
+
+- Renamed to `acm-enhanced` to show that this is an enhanced version of [acmart](https://ctan.org/pkg/acmart).
+
 ## [2025-01-25]
 
 ### Added
@@ -38,5 +44,6 @@ Versioning is done using [Calendar Versioning](https://calver.org/).
 First public release.
 <!-- markdownlint-disable-file MD024 MD033 -->
 
-[2025-01-25]: https://github.com/latextemplates/LNCS/compare/2025-01-20...2025-01-25
+[Unreleased]: https://github.com/latextemplates/ACM/compare/2025-01-25...main
+[2025-01-25]: https://github.com/latextemplates/ACM/compare/2025-01-20...2025-01-25
 [2025-01-20]: https://github.com/latextemplates/ACM/compare/2025-01-14...2025-01-20

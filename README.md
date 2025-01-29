@@ -73,7 +73,7 @@ On the command line, there are additional features:
 Following features are enabled in this template:
 
 - (Optional) Typesetting of listings using advanced highlighting powered by the [minted] package.
- `mitned` provides better output than [listings], but requires [pygments] to be installed.
+  `mitned` provides better output than [listings], but requires [pygments] to be installed.
 - Generated PDF allows for copy and paste of text without getting words with [ligatures](https://en.wikipedia.org/wiki/Typographic_ligature) such as "workflow" destroyed.
   This is enabled by `glyphtounicode`, which encodes ligatures (such as fl) using unicode characters.
 - Ligatures are removed if they are typeset at the wrong place.
@@ -106,7 +106,6 @@ Hints on writing an abstract and thesis by Dirk Fahland.
 - Linux: Recent TeX Live distribution
 
 See [docs/latex-setup](docs/latex-setup) for refined installation instructions.
-
 
 ### Usage of `minted`
 
@@ -209,7 +208,6 @@ Following one-time setup is required:
 ```cmd
 docker build -t ltg .
 ```
-
 
 ## Contained Directories and Files
 

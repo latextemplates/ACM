@@ -11,6 +11,10 @@ Versioning is done using [Calendar Versioning](https://calver.org/).
 
 - Renamed to `acm-enhanced` to show that this is an enhanced version of [acmart](https://ctan.org/pkg/acmart).
 
+### Added
+
+- Added `commands.tex` to collects all LaTeX macros / commands for a better overview on available (custom) LaTeX commands.
+
 ## [2025-01-25]
 
 ### Added

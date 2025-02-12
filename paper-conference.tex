@@ -9,6 +9,7 @@
 \documentclass[sigconf,balance]{acmart}
 
 \usepackage{iftex}
+\usepackage{ifplatform}
 
 % backticks (`) are rendered as such in verbatim environments.
 % See following links for details:
@@ -52,7 +53,6 @@
 
 \ifluatex
   \usepackage[no-math]{fontspec}
-  \usepackage{unicode-math}
 
   % Enable proper ligatures
   % For more information see https://ctan.org/pkg/selnolig

@@ -1,9 +1,8 @@
 name: Update Files
 on:
-  pull_request:
   push:
     branches:
-      - main
+      - update-ltg
   workflow_dispatch:
 concurrency:
   group: "${{ github.workflow }}-${{ github.head_ref || github.ref }}"
@@ -63,9 +62,7 @@ jobs:
         run: |
           if [ "${{ matrix.listings }}" == "minted" ]; then
             # paper.tex should not be overwritten
-            mv paper.tex paper-conference-minted.tex
-          else
-            cp paper.tex paper-conference.tex
+            mv paper.tex paper-minted.tex
           fi
 
           # remove files which should not be overwritten

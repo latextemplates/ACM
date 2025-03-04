@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 Versioning is done using [Calendar Versioning](https://calver.org/).
 
+## [2025-03-04]
+
+### Removed
+
+- Removed `paper-conference.tex`, because it is a duplicate to `paper.tex`.
+
+### Changed
+
+- Renamed `paper-conference-minted.tex` to `paper-conference.tex`.
+
 ## [2025-02-12]
 
 ### Fixed
@@ -54,6 +64,7 @@ Versioning is done using [Calendar Versioning](https://calver.org/).
 First public release.
 <!-- markdownlint-disable-file MD024 MD033 -->
 
+[2025-03-04]: https://github.com/latextemplates/ACM/compare/2025-02-12...2025-03-04
 [2025-02-12]: https://github.com/latextemplates/ACM/compare/2025-01-31...2025-02-12
 [2025-01-31]: https://github.com/latextemplates/ACM/compare/2025-01-25...2025-01-31
 [2025-01-25]: https://github.com/latextemplates/ACM/compare/2025-01-20...2025-01-25

@@ -7,7 +7,7 @@ However, de-facto configurations (hyperref) and modern features of latex (microt
 This template does it.
 
 This template is for the conferences.
-In case you need other configurations, please adapt `paper-conference.tex` or run the [latex template generator].
+In case you need other configurations, please adapt `paper.tex` or run the [latex template generator].
 
 ## Usage
 
